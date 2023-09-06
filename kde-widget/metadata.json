@@ -1,0 +1,25 @@
+{
+  "KPlugin": {
+    "Authors": [
+      {
+        "Email": "email.shivam.hmr@gmail.com",
+        "Name": "Shivam Singh"
+      },
+      {
+        "Email": "email.sujalsingh@gmail.com",
+        "Name": "Sujal Singh"
+      }
+    ],
+    "Category": "Utilities",
+    "Description": "Widget to unlock the main building door.",
+    "Icon": "home",
+    "Id": "com.github.xserv-labs.door-lock",
+    "Name": "Door Lock",
+    "Version": "1.0.0",
+    "Website": "https://github.com/xserv-labs/door-lock",
+    "License": "GPLv3"
+  },
+  "X-Plasma-API": "declarativeappletscript",
+  "X-Plasma-MainScript": "ui/main.qml",
+  "KPackageStructure": "Plasma/Applet"
+}
