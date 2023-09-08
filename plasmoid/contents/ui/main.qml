@@ -37,7 +37,7 @@ Item {
                 };
                 xhr.open(
                     "GET",
-                    "https://door.xserv.dev/cm?cmnd=Backlog%20Power%20off%3B%20Delay%0220%3B%20Power%20on%3B%20Delay%0220%3B%20Power%20off",
+                    "https://door.xserv.dev/unlock/cm?cmnd=Backlog%20Power%20off%3B%20Delay%0220%3B%20Power%20on%3B%20Delay%0220%3B%20Power%20off",
                     true
                 );
                 xhr.send();
