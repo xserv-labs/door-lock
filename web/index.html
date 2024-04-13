@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Gateway of Labs</title>
+    <link rel="icon" type="image/x-icon" href="srcs/padlock.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button onclick="openCall()" class="button" role="button">Unlock</button>
+    <script>
+        function openCall() {
+            fetch('http://10.2.0.200/cm?cmnd=Backlog%20Power%20off%3B%20Delay%0220%3B%20Power%20on%3B%20Delay%0220%3B%20Power%20off')
+                .then(() => {
+                    console.log('Fetch request sent successfully!');
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+        }
+    </script>
+</body>
+
+</html>
